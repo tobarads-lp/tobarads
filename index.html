@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tobar.ads · Tobar.ads · Tu página de ventas lista en tiempo récord por $300.000</title>
+<meta name="description" content="Diseñamos tu página de ventas profesional en tiempo récord por $300.000 COP. Lista para vender, captar leads y pautar en Meta y Google Ads.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --white:#ffffff;
+  --bg:#ffffff;
+  --bg-soft:#f7fdf9;
+  --bg-tint:#ecfdf5;
+  --ink:#0a1714;
+  --ink-soft:#475569;
+  --ink-mute:#94a3b8;
+  --line:#e2e8f0;
+  --line-strong:#cbd5e1;
+  --green:#10b981;
+  --green-deep:#059669;
+  --green-bright:#22c55e;
+  --green-neon:#84cc16;
+  --green-soft:#4ade80;
+  --green-tint:#d1fae5;
+  --blue:#06b6d4;
+  --blue-deep:#0891b2;
+  --blue-soft:#22d3ee;
+  --gradient:linear-gradient(135deg,#059669 0%,#10b981 35%,#06b6d4 100%);
+  --gradient-bright:linear-gradient(135deg,#22c55e 0%,#06b6d4 100%);
+  --gradient-tint:linear-gradient(135deg,#d1fae5 0%,#cffafe 100%);
+  --gradient-dark:linear-gradient(135deg,#064e3b 0%,#065f46 50%,#0c4a6e 100%);
+  --green-wa:#25D366;
+  --amber:#f59e0b;
+  --red:#ef4444;
+  --shadow-sm:0 1px 2px rgba(6,95,70,0.04);
+  --shadow-md:0 8px 32px rgba(6,95,70,0.10);
+  --shadow-lg:0 24px 64px -12px rgba(6,95,70,0.20);
+  --shadow-glow:0 12px 40px rgba(16,185,129,0.25);
+  --radius-sm:10px;
+  --radius-md:16px;
+  --radius-lg:24px;
+  --radius-xl:32px;
+  --ease:cubic-bezier(0.22,1,0.36,1);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--bg);color:var(--ink);
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;font-weight:400;
+}
+::selection{background:var(--green);color:white}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+
+/* ====== AMBIENT LIGHTING ====== */
+.ambient{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.blob{position:absolute;border-radius:50%;filter:blur(120px);opacity:0.4;will-change:transform}
+.blob-1{
+  width:600px;height:600px;top:-200px;left:-150px;
+  background:radial-gradient(circle,var(--green-soft),transparent 70%);
+}
+.blob-2{
+  width:700px;height:700px;top:30%;right:-250px;
+  background:radial-gradient(circle,var(--blue-soft),transparent 70%);
+  opacity:0.25;
+}
+.blob-3{
+  width:500px;height:500px;bottom:10%;left:20%;
+  background:radial-gradient(circle,var(--green-neon),transparent 70%);
+  opacity:0.18;
+}
+
+/* ====== LAYOUT ====== */
+.container{max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
+section{padding:96px 0;position:relative}
+
+/* ====== NAV ====== */
+.nav{
+  position:fixed;top:16px;left:50%;transform:translateX(-50%);
+  z-index:100;width:calc(100% - 32px);max-width:1180px;
+  background:rgba(255,255,255,0.75);
+  backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  border:1px solid rgba(255,255,255,0.8);
+  border-radius:18px;padding:12px 20px;
+  display:flex;align-items:center;justify-content:space-between;
+  box-shadow:0 4px 24px rgba(15,15,25,0.06);
+  transition:all 0.3s var(--ease);
+}
+.logo{
+  font-weight:700;font-size:18px;color:var(--ink);letter-spacing:-0.02em;
+  display:flex;align-items:center;gap:6px;
+}
+.logo-dot{
+  display:inline-block;width:8px;height:8px;border-radius:50%;
+  background:var(--gradient);
+}
+.nav-links{display:flex;gap:8px;list-style:none}
+.nav-links a{
+  color:var(--ink-soft);font-size:14px;font-weight:500;
+  padding:8px 14px;border-radius:10px;transition:all 0.2s;
+}
+.nav-links a:hover{color:var(--green-deep);background:var(--bg-tint)}
+.nav-cta{
+  background:var(--gradient);color:white;
+  padding:10px 18px;border-radius:12px;font-size:13px;font-weight:600;
+  transition:all 0.25s var(--ease);
+  box-shadow:0 4px 14px rgba(16,185,129,0.35);
+}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(16,185,129,0.45)}
+.menu-toggle{display:none;width:38px;height:38px;border-radius:10px;align-items:center;justify-content:center;color:var(--ink)}
+
+/* ====== HERO ====== */
+.hero{padding:140px 0 80px;position:relative;text-align:center}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(16,185,129,0.10);
+  color:var(--green-deep);
+  padding:8px 16px;border-radius:99px;font-size:13px;font-weight:600;
+  margin-bottom:24px;border:1px solid rgba(16,185,129,0.20);
+}
+.hero-badge .pulse{
+  width:8px;height:8px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 0 0 var(--green);animation:pulse 2s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(16,185,129,0.5)}
+  70%{box-shadow:0 0 0 12px rgba(16,185,129,0)}
+  100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}
+}
+.hero h1{
+  font-size:clamp(40px,7vw,80px);font-weight:800;
+  letter-spacing:-0.03em;line-height:1.05;
+  margin-bottom:20px;color:var(--ink);
+  max-width:980px;margin-left:auto;margin-right:auto;
+}
+.grad{
+  background:var(--gradient);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.hero-sub{
+  font-size:clamp(16px,2vw,20px);color:var(--ink-soft);
+  max-width:620px;margin:0 auto 32px;font-weight:400;line-height:1.55;
+}
+.hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:16px 28px;border-radius:14px;font-size:15px;font-weight:600;
+  transition:all 0.25s var(--ease);cursor:pointer;
+  letter-spacing:-0.01em;white-space:nowrap;
+}
+.btn-primary{
+  background:var(--gradient);color:white;
+  box-shadow:0 8px 24px rgba(16,185,129,0.35);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(16,185,129,0.45)}
+.btn-ghost{background:white;color:var(--ink);border:1px solid var(--line-strong)}
+.btn-ghost:hover{border-color:var(--green);color:var(--green-deep)}
+.btn-wa{background:var(--green-wa);color:white;box-shadow:0 4px 14px rgba(37,211,102,0.3)}
+.btn-wa:hover{transform:translateY(-2px)}
+.btn .arrow{transition:transform 0.25s;display:inline-flex}
+.btn:hover .arrow{transform:translateX(3px)}
+
+.trust-strip{
+  display:flex;gap:32px;justify-content:center;flex-wrap:wrap;
+  font-size:13px;color:var(--ink-soft);margin-bottom:48px;
+}
+.trust-strip span{display:flex;align-items:center;gap:6px}
+.trust-strip svg{color:var(--green-deep)}
+
+/* ====== HERO IMAGE ====== */
+.hero-img-wrap{
+  max-width:1000px;margin:0 auto;
+  position:relative;
+}
+.hero-img{
+  width:100%;height:auto;display:block;
+  border-radius:24px;
+  filter:drop-shadow(0 40px 80px rgba(6,95,70,0.18));
+  transition:transform 0.6s var(--ease);
+  animation:heroFloat 8s ease-in-out infinite;
+}
+@keyframes heroFloat{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-10px)}
+}
+
+/* ====== SECTION HEAD ====== */
+.section-head{text-align:center;max-width:720px;margin:0 auto 56px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(16,185,129,0.10);color:var(--green-deep);
+  font-size:12px;font-weight:600;letter-spacing:0.05em;
+  padding:6px 14px;border-radius:99px;margin-bottom:20px;text-transform:uppercase;
+}
+.section-head h2{
+  font-size:clamp(32px,5vw,52px);font-weight:700;
+  letter-spacing:-0.02em;line-height:1.1;margin-bottom:16px;
+}
+.section-head p{
+  color:var(--ink-soft);font-size:17px;font-weight:400;line-height:1.55;
+  max-width:560px;margin:0 auto;
+}
+
+/* ====== PROBLEM ====== */
+.problem-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.problem-card{
+  background:white;border-radius:var(--radius-lg);padding:28px;
+  border:1px solid var(--line);transition:all 0.3s var(--ease);
+}
+.problem-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:rgba(16,185,129,0.3)}
+.problem-icon{
+  width:48px;height:48px;border-radius:14px;
+  background:var(--gradient-tint);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:16px;color:var(--green-deep);
+}
+.problem-card h4{font-size:16px;font-weight:600;margin-bottom:8px;letter-spacing:-0.01em}
+.problem-card p{font-size:14px;color:var(--ink-soft);line-height:1.5}
+
+/* ====== INCLUDES ====== */
+.includes-section{background:var(--bg-soft)}
+.includes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.include-card{
+  background:white;border-radius:var(--radius-lg);padding:32px;
+  border:1px solid var(--line);transition:all 0.3s var(--ease);
+}
+.include-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.include-icon{
+  width:56px;height:56px;border-radius:16px;
+  background:var(--gradient);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:20px;color:white;
+  box-shadow:0 8px 20px rgba(16,185,129,0.30);
+}
+.include-card h4{font-size:18px;font-weight:600;margin-bottom:8px;letter-spacing:-0.01em}
+.include-card p{font-size:14px;color:var(--ink-soft);line-height:1.55}
+
+/* ====== OFFER ====== */
+.offer-card{
+  background:white;border-radius:var(--radius-xl);
+  padding:48px;max-width:780px;margin:0 auto;
+  box-shadow:var(--shadow-lg);border:1px solid var(--line);
+  position:relative;overflow:hidden;
+}
+.offer-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:6px;
+  background:var(--gradient);
+}
+.offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.offer-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--bg-tint);color:var(--green-deep);
+  padding:6px 14px;border-radius:99px;font-size:12px;font-weight:600;
+  margin-bottom:16px;
+}
+.offer-card h3{font-size:32px;font-weight:700;letter-spacing:-0.02em;margin-bottom:8px;line-height:1.1}
+.offer-desc{color:var(--ink-soft);font-size:15px;margin-bottom:24px;line-height:1.5}
+.offer-price-row{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.offer-price{
+  font-size:56px;font-weight:800;letter-spacing:-0.04em;
+  background:var(--gradient);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;line-height:1;
+}
+.offer-price-cur{font-size:18px;color:var(--ink-mute);font-weight:600}
+.offer-period{color:var(--ink-mute);font-size:13px;margin-bottom:24px}
+.offer-features{list-style:none;margin-bottom:24px}
+.offer-features li{
+  display:flex;align-items:flex-start;gap:10px;font-size:14px;
+  padding:8px 0;color:var(--ink-soft);
+}
+.offer-features svg{flex-shrink:0;color:var(--green-deep);margin-top:2px}
+.offer-urgency{
+  background:rgba(245,158,11,0.08);color:#b45309;
+  padding:10px 14px;border-radius:10px;font-size:13px;font-weight:500;
+  display:flex;align-items:center;gap:8px;margin-top:16px;
+  border:1px solid rgba(245,158,11,0.2);
+}
+.offer-bonus{
+  background:var(--gradient-tint);padding:24px;border-radius:var(--radius-md);
+  border:1px dashed rgba(16,185,129,0.40);
+}
+.offer-bonus h5{
+  font-size:12px;font-weight:700;color:var(--green-deep);
+  text-transform:uppercase;letter-spacing:0.05em;margin-bottom:14px;
+  display:flex;align-items:center;gap:6px;
+}
+.offer-bonus ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.offer-bonus li{font-size:13px;color:var(--ink-soft);line-height:1.5;display:flex;align-items:flex-start;gap:8px}
+.offer-bonus .gift{font-size:14px;flex-shrink:0}
+
+/* ====== AGENDA SECTION (NUEVA) ====== */
+.agenda-section{
+  background:var(--gradient-dark);color:white;
+  border-radius:var(--radius-xl);margin:0 24px;padding:80px 32px;
+  position:relative;overflow:hidden;
+}
+.agenda-section::before{
+  content:'';position:absolute;top:-100px;right:-100px;
+  width:400px;height:400px;border-radius:50%;
+  background:radial-gradient(circle,rgba(132,204,22,0.20),transparent 60%);
+}
+.agenda-section::after{
+  content:'';position:absolute;bottom:-100px;left:-100px;
+  width:400px;height:400px;border-radius:50%;
+  background:radial-gradient(circle,rgba(6,182,212,0.25),transparent 60%);
+}
+.agenda-wrap{max-width:1100px;margin:0 auto;position:relative;z-index:2}
+.agenda-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.agenda-eyebrow{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(132,204,22,0.15);color:var(--green-bright);
+  font-size:12px;font-weight:600;letter-spacing:0.05em;
+  padding:6px 14px;border-radius:99px;margin-bottom:20px;text-transform:uppercase;
+  border:1px solid rgba(132,204,22,0.3);
+}
+.agenda-section h2{
+  font-size:clamp(32px,4.5vw,46px);font-weight:700;letter-spacing:-0.02em;
+  line-height:1.1;margin-bottom:20px;color:white;
+}
+.agenda-section h2 em{font-style:normal;color:var(--green-bright)}
+.agenda-section .lead{
+  font-size:17px;color:rgba(255,255,255,0.75);
+  margin-bottom:28px;line-height:1.55;
+}
+.agenda-features{list-style:none;margin-bottom:32px}
+.agenda-features li{
+  display:flex;align-items:flex-start;gap:12px;
+  padding:10px 0;color:rgba(255,255,255,0.85);font-size:15px;
+}
+.agenda-features .ico{
+  width:32px;height:32px;border-radius:9px;
+  background:rgba(132,204,22,0.18);color:var(--green-bright);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.agenda-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.agenda-tag{
+  background:rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.12);
+  color:rgba(255,255,255,0.85);
+  padding:6px 12px;border-radius:99px;font-size:12px;font-weight:500;
+}
+
+/* Agenda visual mockup */
+.agenda-visual{
+  background:white;border-radius:var(--radius-lg);padding:24px;
+  color:var(--ink);box-shadow:0 30px 80px -20px rgba(0,0,0,0.4);
+  position:relative;
+}
+.av-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.av-title{font-size:15px;font-weight:700}
+.av-month{font-size:12px;color:var(--ink-mute);background:var(--bg-tint);padding:4px 10px;border-radius:8px;color:var(--green-deep);font-weight:600}
+.av-cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:20px}
+.av-day-name{font-size:9px;color:var(--ink-mute);text-align:center;font-weight:600;padding:4px 0}
+.av-day{
+  aspect-ratio:1;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:600;color:var(--ink-soft);
+  border:1px solid var(--line);
+}
+.av-day.empty{border-color:transparent}
+.av-day.busy{background:var(--bg-tint);color:var(--green-deep);border-color:rgba(16,185,129,0.2)}
+.av-day.selected{background:var(--gradient);color:white;border:none;box-shadow:0 4px 12px rgba(16,185,129,0.4)}
+.av-slots{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.av-slot{
+  padding:10px;text-align:center;border-radius:10px;
+  font-size:12px;font-weight:600;color:var(--ink);
+  border:1px solid var(--line);background:white;
+}
+.av-slot.selected{background:var(--gradient);color:white;border:none;box-shadow:0 4px 12px rgba(16,185,129,0.3)}
+.av-confirm{
+  background:var(--ink);color:white;text-align:center;
+  padding:12px;border-radius:10px;font-size:12px;font-weight:600;
+  margin-top:14px;
+}
+
+/* ====== COMPARISON ====== */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.compare-col{
+  background:white;border-radius:var(--radius-lg);padding:32px;
+  border:1px solid var(--line);
+}
+.compare-col.bad{background:#fef9f9;border-color:#fecaca}
+.compare-col.good{
+  background:linear-gradient(180deg,white,#f7fdf9);
+  border-color:var(--green);box-shadow:var(--shadow-md);position:relative;
+}
+.compare-col.good::before{
+  content:'Recomendado';position:absolute;top:-12px;right:24px;
+  background:var(--gradient);color:white;
+  padding:5px 12px;border-radius:99px;font-size:11px;font-weight:600;
+}
+.compare-col h4{font-size:20px;font-weight:600;margin-bottom:6px;letter-spacing:-0.01em}
+.compare-col .compare-sub{font-size:13px;color:var(--ink-mute);margin-bottom:20px}
+.compare-col ul{list-style:none}
+.compare-col li{
+  display:flex;align-items:flex-start;gap:10px;
+  padding:10px 0;font-size:14px;color:var(--ink-soft);line-height:1.5;
+  border-bottom:1px solid var(--line);
+}
+.compare-col li:last-child{border-bottom:none}
+.compare-icon{flex-shrink:0;margin-top:2px}
+.compare-col.bad .compare-icon{color:#ef4444}
+.compare-col.good .compare-icon{color:var(--green-deep)}
+
+/* ====== PROCESS ====== */
+.process-section{background:var(--bg-soft)}
+.process-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;position:relative}
+.process-step{
+  background:white;border-radius:var(--radius-lg);padding:24px;
+  border:1px solid var(--line);transition:all 0.3s var(--ease);
+}
+.process-step:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.process-num{
+  width:36px;height:36px;border-radius:10px;background:var(--gradient);
+  color:white;font-weight:700;font-size:14px;
+  display:flex;align-items:center;justify-content:center;margin-bottom:14px;
+}
+.process-step h5{font-size:15px;font-weight:600;margin-bottom:6px;letter-spacing:-0.01em}
+.process-step p{font-size:13px;color:var(--ink-soft);line-height:1.5}
+
+/* ====== TESTIMONIALS (NUEVA) ====== */
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.testimonial{
+  background:white;border-radius:var(--radius-lg);padding:32px;
+  border:1px solid var(--line);transition:all 0.3s var(--ease);
+  position:relative;display:flex;flex-direction:column;
+}
+.testimonial:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.testimonial .quote-icon{
+  position:absolute;top:24px;right:24px;color:var(--green-tint);
+  font-size:48px;line-height:1;font-family:Georgia,serif;font-weight:700;
+}
+.testimonial .stars{display:flex;gap:2px;color:var(--amber);margin-bottom:14px}
+.testimonial .text{
+  font-size:14.5px;color:var(--ink-soft);line-height:1.6;
+  margin-bottom:20px;font-style:italic;flex:1;
+}
+.testimonial .author{display:flex;align-items:center;gap:12px}
+.testimonial .avatar{
+  width:44px;height:44px;border-radius:50%;
+  background:var(--gradient);color:white;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:16px;flex-shrink:0;
+}
+.testimonial .info{display:flex;flex-direction:column;gap:2px}
+.testimonial .name{font-size:14px;font-weight:600;color:var(--ink)}
+.testimonial .role{font-size:12px;color:var(--ink-mute)}
+
+/* ====== STATS ====== */
+.stats-section{
+  background:var(--gradient);color:white;padding:80px 0;
+  border-radius:var(--radius-xl);margin:0 24px;
+}
+.stats-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;text-align:center}
+.stat-num{font-size:56px;font-weight:800;letter-spacing:-0.03em;line-height:1;margin-bottom:8px}
+.stat-label{font-size:13px;opacity:0.95;font-weight:500}
+
+/* ====== PLANS ====== */
+.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.plan{
+  background:white;border-radius:var(--radius-lg);padding:32px;
+  border:1px solid var(--line);transition:all 0.3s var(--ease);
+  position:relative;display:flex;flex-direction:column;
+}
+.plan:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.plan.featured{
+  border:2px solid var(--green);
+  background:linear-gradient(180deg,white,#f7fdf9);
+  box-shadow:var(--shadow-glow);
+}
+.plan.featured::before{
+  content:'Más elegido';position:absolute;top:-12px;left:50%;transform:translateX(-50%);
+  background:var(--gradient);color:white;padding:5px 14px;
+  border-radius:99px;font-size:11px;font-weight:600;
+}
+.plan-name{
+  font-size:13px;font-weight:600;text-transform:uppercase;
+  letter-spacing:0.05em;color:var(--green-deep);margin-bottom:12px;
+}
+.plan-price{font-size:38px;font-weight:800;letter-spacing:-0.03em;line-height:1}
+.plan-price small{font-size:18px;color:var(--ink-mute);font-weight:500}
+.plan-period{font-size:13px;color:var(--ink-mute);margin:6px 0 24px}
+.plan-features{list-style:none;margin-bottom:24px;flex:1}
+.plan-features li{
+  display:flex;align-items:flex-start;gap:8px;padding:8px 0;
+  font-size:14px;color:var(--ink-soft);line-height:1.5;
+}
+.plan-features svg{flex-shrink:0;color:var(--green-deep);margin-top:3px}
+.plan-cta{
+  display:block;width:100%;text-align:center;padding:12px;
+  background:white;border:1.5px solid var(--green);color:var(--green-deep);
+  border-radius:12px;font-size:14px;font-weight:600;transition:all 0.2s;
+}
+.plan.featured .plan-cta{background:var(--gradient);color:white;border:none}
+.plan-cta:hover{background:var(--gradient);color:white;border-color:transparent}
+
+/* ====== FAQ ====== */
+.faq-list{max-width:780px;margin:0 auto}
+.faq-item{
+  background:white;border-radius:var(--radius-md);
+  border:1px solid var(--line);margin-bottom:10px;overflow:hidden;
+  transition:all 0.3s var(--ease);
+}
+.faq-item:hover{border-color:rgba(16,185,129,0.35)}
+.faq-q{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:20px 24px;cursor:pointer;font-weight:500;font-size:15px;
+  color:var(--ink);text-align:left;width:100%;
+}
+.faq-item.open .faq-q{color:var(--green-deep)}
+.faq-icon{
+  width:28px;height:28px;border-radius:8px;background:var(--bg-tint);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--green-deep);flex-shrink:0;transition:transform 0.3s;
+}
+.faq-item.open .faq-icon{transform:rotate(45deg);background:var(--gradient);color:white}
+.faq-a{
+  max-height:0;overflow:hidden;padding:0 24px;
+  color:var(--ink-soft);font-size:14px;line-height:1.6;
+  transition:max-height 0.4s ease,padding 0.3s ease;
+}
+.faq-item.open .faq-a{max-height:300px;padding:0 24px 20px}
+
+/* ====== CTA FINAL ====== */
+.cta-final{
+  text-align:center;background:var(--gradient);color:white;
+  padding:80px 32px;border-radius:var(--radius-xl);
+  position:relative;overflow:hidden;
+}
+.cta-final::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 30% 20%,rgba(255,255,255,0.15),transparent 60%);
+}
+.cta-final > *{position:relative;z-index:2}
+.cta-final h2{font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-0.02em;margin-bottom:16px;line-height:1.1}
+.cta-final p{font-size:17px;opacity:0.9;max-width:520px;margin:0 auto 32px}
+.cta-final .btn-primary{background:white;color:var(--green-deep);box-shadow:0 8px 24px rgba(0,0,0,0.15)}
+.cta-final .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(0,0,0,0.2)}
+.cta-final .btn-ghost{background:rgba(255,255,255,0.15);color:white;border:1px solid rgba(255,255,255,0.3)}
+.cta-final .btn-ghost:hover{background:rgba(255,255,255,0.25);border-color:white}
+
+/* ====== FOOTER ====== */
+footer{padding:64px 0 32px;border-top:1px solid var(--line)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.footer-brand{font-size:22px;font-weight:700;display:flex;align-items:center;gap:6px;margin-bottom:14px}
+.footer-text{font-size:14px;color:var(--ink-soft);line-height:1.6;max-width:320px}
+.footer-col h6{font-size:13px;font-weight:600;margin-bottom:16px;color:var(--ink)}
+.footer-col ul{list-style:none}
+.footer-col li{margin-bottom:10px}
+.footer-col a{font-size:14px;color:var(--ink-soft);transition:color 0.2s}
+.footer-col a:hover{color:var(--green-deep)}
+.footer-bottom{
+  border-top:1px solid var(--line);padding-top:24px;
+  display:flex;justify-content:space-between;font-size:13px;color:var(--ink-mute);
+  flex-wrap:wrap;gap:12px;
+}
+
+/* ====== WHATSAPP FLOAT ====== */
+.wa-float{
+  position:fixed;bottom:20px;right:20px;z-index:80;
+  width:56px;height:56px;border-radius:50%;
+  background:var(--green-wa);color:white;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 24px rgba(37,211,102,0.4);transition:transform 0.25s var(--ease);
+}
+.wa-float:hover{transform:scale(1.1)}
+.wa-float::before{
+  content:'';position:absolute;inset:-4px;border-radius:50%;
+  border:2px solid var(--green-wa);opacity:0.4;animation:waPulse 2s infinite;
+}
+@keyframes waPulse{
+  0%{transform:scale(1);opacity:0.4}
+  100%{transform:scale(1.4);opacity:0}
+}
+
+/* ====== ANIMATIONS ====== */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 0.8s var(--ease),transform 0.8s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-stagger > *{opacity:0;transform:translateY(30px);transition:opacity 0.7s var(--ease),transform 0.7s var(--ease)}
+.reveal-stagger.visible > *{opacity:1;transform:translateY(0)}
+.reveal-stagger.visible > *:nth-child(1){transition-delay:0s}
+.reveal-stagger.visible > *:nth-child(2){transition-delay:0.08s}
+.reveal-stagger.visible > *:nth-child(3){transition-delay:0.16s}
+.reveal-stagger.visible > *:nth-child(4){transition-delay:0.24s}
+.reveal-stagger.visible > *:nth-child(5){transition-delay:0.32s}
+.reveal-stagger.visible > *:nth-child(6){transition-delay:0.40s}
+.reveal-stagger.visible > *:nth-child(7){transition-delay:0.48s}
+.reveal-stagger.visible > *:nth-child(8){transition-delay:0.56s}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width:1000px){
+  .problem-grid,.includes-grid,.testimonials-grid{grid-template-columns:repeat(2,1fr)}
+  .process-grid{grid-template-columns:repeat(2,1fr)}
+  .plans-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:32px}
+  .compare-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .offer-grid{grid-template-columns:1fr;gap:32px}
+  .agenda-grid{grid-template-columns:1fr;gap:48px}
+  .phone{right:0;bottom:-40px;width:110px}
+}
+@media (max-width:720px){
+  .nav-links{display:none}
+  .menu-toggle{display:flex}
+  .nav{padding:10px 16px}
+  .nav-cta{padding:8px 14px;font-size:12px}
+  .hero{padding:120px 0 60px}
+  section{padding:64px 0}
+  .container{padding:0 16px}
+  .stats-section,.agenda-section{margin:0 16px}
+  .agenda-section{padding:56px 24px}
+  .stats-section{padding:56px 0}
+  .stat-num{font-size:40px}
+  .offer-card{padding:32px 24px}
+  .offer-price{font-size:44px}
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .problem-grid,.includes-grid,.testimonials-grid,.process-grid{grid-template-columns:1fr}
+  .hero-cta{flex-direction:column;align-items:stretch;width:100%;max-width:320px;margin-left:auto;margin-right:auto}
+  .btn{width:100%;justify-content:center}
+  .blob{opacity:0.25}
+  .agenda-visual{padding:18px}
+}
+
+/* ====== PORTAFOLIO CARRUSEL ====== */
+.carousel-wrap{position:relative}
+
+/* viewport de recorte */
+.carousel-track-wrap{
+  overflow:hidden;
+  padding:8px 4px 16px;   /* espacio para sombras */
+  margin:0 -4px;
+}
+
+/* pista: ancho fijo por tarjeta × N + gaps */
+.carousel-track{
+  display:flex;
+  gap:24px;
+  transition:transform 0.55s cubic-bezier(0.22,1,0.36,1);
+  will-change:transform;
+  align-items:stretch;
+}
+
+/* ── TARJETA ── */
+.proj-card{
+  /* ancho fijo; JS lo recalcula en resize */
+  flex:0 0 320px;
+  width:320px;
+  background:white;
+  border-radius:20px;
+  border:1px solid var(--line);
+  overflow:hidden;
+  box-shadow:0 4px 20px rgba(6,95,70,0.07);
+  transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  display:flex;
+  flex-direction:column;
+}
+.proj-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 16px 40px rgba(6,95,70,0.14);
+}
+
+/* imagen — altura FIJA para que todas se vean igual */
+.proj-img-wrap{
+  position:relative;
+  width:100%;
+  height:420px;          /* altura fija — ajusta si quieres más o menos */
+  overflow:hidden;
+  background:var(--bg-soft);
+  flex-shrink:0;
+}
+.proj-img-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+  display:block;
+  transition:transform 0.6s var(--ease);
+}
+.proj-card:hover .proj-img-wrap img{
+  transform:translateY(-6%) scale(1.04);
+}
+
+/* badge sobre la imagen */
+.proj-overlay{
+  position:absolute;top:14px;left:14px;z-index:2;
+}
+.proj-badge{
+  background:rgba(16,185,129,0.90);
+  color:white;
+  font-size:11px;font-weight:600;
+  padding:5px 12px;
+  border-radius:99px;
+  backdrop-filter:blur(8px);
+  box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* info bajo la imagen */
+.proj-info{
+  padding:20px 20px 22px;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.proj-info h4{
+  font-size:16px;font-weight:700;
+  letter-spacing:-0.02em;color:var(--ink);
+  margin:0;
+}
+.proj-info p{
+  font-size:13px;color:var(--ink-soft);
+  line-height:1.55;margin:0;flex:1;
+}
+.proj-tags{
+  display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;
+}
+.proj-tags span{
+  font-size:11px;padding:3px 10px;border-radius:6px;
+  background:var(--bg-tint);color:var(--green-deep);font-weight:600;
+}
+
+/* ── CONTROLES ── */
+.carousel-controls{
+  display:flex;align-items:center;justify-content:center;
+  gap:16px;margin-top:28px;
+}
+.carousel-btn{
+  width:48px;height:48px;border-radius:14px;
+  background:white;border:1.5px solid var(--line);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--ink-soft);cursor:pointer;
+  transition:all 0.2s var(--ease);
+  box-shadow:0 2px 8px rgba(6,95,70,0.06);
+}
+.carousel-btn:hover{
+  border-color:var(--green);
+  color:var(--green-deep);
+  background:var(--bg-tint);
+  box-shadow:0 4px 14px rgba(16,185,129,0.15);
+}
+.carousel-btn:disabled{opacity:0.3;cursor:not-allowed;pointer-events:none}
+.carousel-dots{display:flex;gap:8px;align-items:center}
+.carousel-dot{
+  width:8px;height:8px;border-radius:99px;
+  background:var(--line-strong);cursor:pointer;
+  transition:all 0.35s var(--ease);border:none;padding:0;
+}
+.carousel-dot.active{
+  background:var(--green);width:28px;
+}
+.carousel-dot:hover{background:var(--green-soft)}
+
+/* ── RESPONSIVE ── */
+/* tablet: 2 tarjetas  */
+@media(max-width:1040px){
+  .proj-card{flex:0 0 280px;width:280px}
+  .proj-img-wrap{height:360px}
+}
+/* mobile: 1 tarjeta casi full-width */
+@media(max-width:640px){
+  .proj-card{flex:0 0 calc(100vw - 56px);width:calc(100vw - 56px)}
+  .proj-img-wrap{height:300px}
+  .carousel-btn{width:40px;height:40px;border-radius:10px}
+}
+</style>
+</head>
+<body>
+
+<!-- AMBIENT -->
+<div class="ambient">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#" class="logo"><span>Tobar</span><span class="logo-dot"></span><span>ads</span></a>
+  <ul class="nav-links">
+    <li><a href="#oferta">Oferta</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#portafolio">Portafolio</a></li>
+    <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#planes">Planes</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <a href="https://wa.me/573176584905?text=Hola,%20quiero%20mi%20p%C3%A1gina%20de%20ventas" class="nav-cta" target="_blank">Quiero mi página</a>
+  <button class="menu-toggle" aria-label="Menú">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge reveal">
+      <span class="pulse"></span>
+      <span>Solo 5 cupos este mes</span>
+    </div>
+    <h1 class="reveal">Tu página de ventas<br><span class="grad">lista en tiempo récord</span> por <span class="grad">$300.000</span></h1>
+    <p class="hero-sub reveal">Diseñamos tu página de ventas lista para convertir visitas en clientes reales, recibir mensajes por WhatsApp y arrancar tus campañas desde el primer día.</p>
+    <div class="hero-cta reveal">
+      <a href="https://wa.me/573176584905?text=Hola,%20quiero%20mi%20p%C3%A1gina%20de%20ventas%20por%20%24300.000" class="btn btn-primary" target="_blank">
+        Quiero mi página
+        <span class="arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="#oferta" class="btn btn-ghost">Ver qué incluye</a>
+    </div>
+    <div class="trust-strip reveal">
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Entrega rápida 3-5 días</span>
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Pago único, sin permanencia</span>
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Lista para pautar</span>
+    </div>
+
+    <!-- HERO IMAGE -->
+    <div class="hero-img-wrap reveal">
+      <img src="hero.png" alt="Tobar.ads - Páginas de ventas profesionales" class="hero-img">
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEMA -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">El problema</span>
+      <h2>Tu negocio pierde <span class="grad">clientes a diario</span></h2>
+      <p>Y casi siempre, la causa es la misma: no tienes una página profesional para mandar.</p>
+    </div>
+    <div class="problem-grid reveal-stagger">
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </div>
+        <h4>Dependes de redes</h4>
+        <p>El algoritmo decide quién te ve. Tú no controlas nada.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h4>No tienes qué mandar</h4>
+        <p>Cuando preguntan por tu web, mandas Instagram o un PDF.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h4>Quemas tu pauta</h4>
+        <p>Inviertes en anuncios sin una página que convierta tráfico.</p>
+      </div>
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>Pierdes confianza</h4>
+        <p>Tu competencia con web profesional se ve más seria.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUE INCLUYE -->
+<section class="includes-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Qué incluye</span>
+      <h2>Todo lo que incluye tu página de ventas por <span class="grad">$300.000</span></h2>
+      <p>Pago único. Sin sorpresas. Sin permanencia.</p>
+    </div>
+    <div class="includes-grid reveal-stagger">
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h4>Diseño profesional</h4>
+        <p>Estructura moderna optimizada para convertir, no solo para verse bonita.</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+        </div>
+        <h4>Copy persuasivo</h4>
+        <p>Cada palabra escrita para que tu visitante haga clic.</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </div>
+        <h4>Botón a WhatsApp</h4>
+        <p>Cada CTA abre conversación contigo con mensaje pre-cargado.</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <h4>Formulario captura</h4>
+        <p>Nombre, correo y teléfono. Notificación al instante.</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        </div>
+        <h4>100% responsive</h4>
+        <p>Se ve perfecta en celular, tablet y computador.</p>
+      </div>
+      <div class="include-card">
+        <div class="include-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h4>Píxel + medición</h4>
+        <p>Píxel de Meta instalado y eventos de conversión configurados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section id="oferta">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Tu página de ventas</span>
+      <h2>Una página de ventas. <span class="grad">Un solo precio.</span></h2>
+      <p>Sin paquetes confusos ni cargos ocultos.</p>
+    </div>
+    <div class="offer-card reveal">
+      <div class="offer-grid">
+        <div>
+          <span class="offer-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Página lista en tiempo récord
+          </span>
+          <h3>Página de ventas <span class="grad">Express</span></h3>
+          <p class="offer-desc">Tu página de ventas profesional, lista para convertir y pautar en 3 a 5 días hábiles.</p>
+          <div class="offer-price-row">
+            <span class="offer-price-cur">$</span>
+            <span class="offer-price">300.000</span>
+          </div>
+          <div class="offer-period">COP · Pago único · Sin permanencia</div>
+          <ul class="offer-features">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Diseño + copy + WhatsApp + formulario</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Adaptación móvil completa</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Píxel de Meta + eventos de conversión</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>1 sesión de estrategia previa</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>1 ronda de revisiones incluida</li>
+          </ul>
+          <a href="https://wa.me/573176584905?text=Hola,%20quiero%20reservar%20mi%20cupo%20para%20mi%20p%C3%A1gina%20de%20ventas%20por%20%24300.000" class="btn btn-primary" target="_blank" style="width:100%;justify-content:center">
+            Reservar mi cupo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <div class="offer-urgency">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            Solo 5 cupos este mes · 2 restantes
+          </div>
+        </div>
+        <div class="offer-bonus">
+          <h5>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+            Bonos este mes
+          </h5>
+          <ul>
+            <li><span class="gift">🎁</span> WhatsApp Business configurado con mensaje automático</li>
+            <li><span class="gift">🎁</span> 3 plantillas para cerrar prospectos por WhatsApp</li>
+            <li><span class="gift">🎁</span> Mini guía: cómo pautar tu primera campaña con $100.000</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== AGENDA SECTION - NUEVA ====== -->
+<div class="container" style="padding:0" id="agenda">
+  <section class="agenda-section reveal">
+    <div class="agenda-wrap">
+      <div class="agenda-grid">
+        <div>
+          <span class="agenda-eyebrow">Nuevo · Agenda online</span>
+          <h2>¿Tienes un <em>negocio de citas?</em><br>Agrega tu agenda a tu página de ventas</h2>
+          <p class="lead">Para spas, barberías, salones, médicos, consultores, abogados y cualquier prestador de servicios. Tu cliente reserva su cita desde tu página de ventas, tú recibes la confirmación automática.</p>
+          <ul class="agenda-features">
+            <li>
+              <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span>Tu cliente elige día y hora desde el celular</span>
+            </li>
+            <li>
+              <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span>Sincronización con Google Calendar</span>
+            </li>
+            <li>
+              <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span>Recordatorios automáticos por correo</span>
+            </li>
+            <li>
+              <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span>Reduce los "no shows" hasta en un 60%</span>
+            </li>
+            <li>
+              <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+              <span>Configurable por servicio y duración</span>
+            </li>
+          </ul>
+          <div class="agenda-tags">
+            <span class="agenda-tag">Spas</span>
+            <span class="agenda-tag">Barberías</span>
+            <span class="agenda-tag">Salones de belleza</span>
+            <span class="agenda-tag">Clínicas</span>
+            <span class="agenda-tag">Consultorios</span>
+            <span class="agenda-tag">Coaches</span>
+            <span class="agenda-tag">Abogados</span>
+            <span class="agenda-tag">Estilistas</span>
+          </div>
+          <div style="margin-top:32px">
+            <a href="https://wa.me/573176584905?text=Hola,%20quiero%20agregar%20agenda%20a%20mi%20p%C3%A1gina%20de%20ventas" class="btn btn-primary" target="_blank" style="background:var(--green-bright);color:#0a1714;box-shadow:0 8px 24px rgba(132,204,22,0.3)">
+              Agregar agenda a mi página de ventas
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Mockup de agenda -->
+        <div class="agenda-visual">
+          <div class="av-header">
+            <div class="av-title">Reserva tu cita</div>
+            <div class="av-month">Diciembre 2026</div>
+          </div>
+          <div class="av-cal">
+            <div class="av-day-name">D</div>
+            <div class="av-day-name">L</div>
+            <div class="av-day-name">M</div>
+            <div class="av-day-name">X</div>
+            <div class="av-day-name">J</div>
+            <div class="av-day-name">V</div>
+            <div class="av-day-name">S</div>
+            <div class="av-day empty"></div>
+            <div class="av-day">1</div>
+            <div class="av-day">2</div>
+            <div class="av-day busy">3</div>
+            <div class="av-day">4</div>
+            <div class="av-day busy">5</div>
+            <div class="av-day">6</div>
+            <div class="av-day">7</div>
+            <div class="av-day busy">8</div>
+            <div class="av-day">9</div>
+            <div class="av-day selected">10</div>
+            <div class="av-day busy">11</div>
+            <div class="av-day">12</div>
+            <div class="av-day">13</div>
+          </div>
+          <div class="av-slots">
+            <div class="av-slot">10:00 AM</div>
+            <div class="av-slot">11:30 AM</div>
+            <div class="av-slot selected">2:00 PM</div>
+            <div class="av-slot">4:30 PM</div>
+          </div>
+          <div class="av-confirm">CONFIRMAR CITA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- COMPARACION -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">La diferencia</span>
+      <h2>Sin página de ventas vs <span class="grad">con página de ventas</span></h2>
+      <p>Lo que cambia cuando finalmente tienes una página de ventas profesional.</p>
+    </div>
+    <div class="compare-grid reveal-stagger">
+      <div class="compare-col bad">
+        <h4>Sin página de ventas</h4>
+        <span class="compare-sub">Solo redes y WhatsApp</span>
+        <ul>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Dependes del algoritmo</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Mensajes que se pierden</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Pautas a un perfil → pocos resultados</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Imposible medir qué funciona</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Te ves como vendedor de Marketplace</li>
+        </ul>
+      </div>
+      <div class="compare-col good">
+        <h4>Con página de ventas profesional</h4>
+        <span class="compare-sub">Página de ventas + estrategia + WhatsApp</span>
+        <ul>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Tu página siempre visible 24/7</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Formulario con datos guardados</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Pauta a página → conversiones reales</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Píxel + métricas + remarketing</li>
+          <li><svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Te ves como una marca de verdad</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== PORTAFOLIO CARRUSEL ====== -->
+<section id="portafolio">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Portafolio</span>
+      <h2>Algunos <span class="grad">proyectos ejecutados</span></h2>
+      <p>Páginas de ventas reales entregadas a negocios colombianos. Cada una diseñada para vender desde el primer día.</p>
+    </div>
+    <div class="carousel-wrap reveal">
+      <div class="carousel-track-wrap">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p1.png" alt="Aura Estetica" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Clínica estética</span></div></div><div class="proj-info"><h4>Aura Estética</h4><p>Landing con agenda de citas, servicios y testimonios para clínica de belleza.</p><div class="proj-tags"><span>Agenda</span><span>WhatsApp</span><span>Responsive</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p2.png" alt="Master Key" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Servicios 24/7</span></div></div><div class="proj-info"><h4>Master Key Cerrajería</h4><p>Landing de urgencias con llamada directa y servicios para cerrajería en Bogotá.</p><div class="proj-tags"><span>Llamada directa</span><span>Urgencias</span><span>SEO local</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p3.png" alt="EcoBox Homes" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Inmobiliario</span></div></div><div class="proj-info"><h4>EcoBox Homes</h4><p>Landing para casas contenedor con galería de modelos y formulario de asesoría.</p><div class="proj-tags"><span>Galería</span><span>Formulario</span><span>WhatsApp</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p4.png" alt="Sonria Dental" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Salud dental</span></div></div><div class="proj-info"><h4>Sonría+ Dental</h4><p>Landing dental con agenda de citas, servicios y sección de confianza para pacientes.</p><div class="proj-tags"><span>Agenda</span><span>Servicios</span><span>Bogotá</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p5.png" alt="LunaBody" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Moda femenina</span></div></div><div class="proj-info"><h4>LunaBody</h4><p>Tienda de ropa femenina con catálogo, testimonios y compra por WhatsApp.</p><div class="proj-tags"><span>E-commerce</span><span>Catálogo</span><span>WhatsApp</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p6.png" alt="Cafe Aroma" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Alimentos</span></div></div><div class="proj-info"><h4>Café Aroma</h4><p>Tienda de café colombiano con catálogo, newsletter y domicilios a Bogotá.</p><div class="proj-tags"><span>Tienda</span><span>Newsletter</span><span>Domicilios</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p7.png" alt="NaturaVida" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Bienestar natural</span></div></div><div class="proj-info"><h4>NaturaVida</h4><p>Tienda de productos naturales con categorías, destacados y suscripción.</p><div class="proj-tags"><span>Categorías</span><span>Ecommerce</span><span>Natural</span></div></div></div>
+          <div class="proj-card"><div class="proj-img-wrap"><img src="p8.png" alt="Logistika Pro" loading="lazy"><div class="proj-overlay"><span class="proj-badge">Logística B2B</span></div></div><div class="proj-info"><h4>Logistika Pro</h4><p>Landing B2B para transporte con formulario de cotización y servicios nacionales.</p><div class="proj-tags"><span>B2B</span><span>Cotizador</span><span>Empresas</span></div></div></div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prevBtn" aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn" id="nextBtn" aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px" class="reveal">
+      <p style="color:var(--ink-soft);font-size:15px;margin-bottom:20px">¿Quieres una página de ventas como estas para tu negocio?</p>
+      <a href="https://wa.me/573176584905?text=Hola,%20vi%20el%20portafolio%20y%20quiero%20mi%20p%C3%A1gina%20de%20ventas" class="btn btn-primary" target="_blank">Quiero mi página <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TESTIMONIALS - NUEVA ====== -->
+<section class="includes-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Testimonios</span>
+      <h2>Negocios que ya <span class="grad">están vendiendo</span></h2>
+      <p>Lo que dicen quienes confiaron en nosotros para su primera página de ventas.</p>
+    </div>
+    <div class="testimonials-grid reveal-stagger">
+      <div class="testimonial">
+        <span class="quote-icon">"</span>
+        <div class="stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="text">Recuperé la inversión en la primera semana. Antes mandaba mi Instagram, ahora mando un link que se ve serio. Los clientes me toman en serio.</p>
+        <div class="author">
+          <div class="avatar">AM</div>
+          <div class="info">
+            <span class="name">Andrea Martínez</span>
+            <span class="role">Clínica estética · Bogotá</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span class="quote-icon">"</span>
+        <div class="stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="text">Pedí mi página un lunes, el viernes ya tenía un cliente nuevo agendando cita. La agenda online me ahorra horas de WhatsApp cada semana.</p>
+        <div class="author">
+          <div class="avatar">CR</div>
+          <div class="info">
+            <span class="name">Carlos Ramírez</span>
+            <span class="role">Barbería · Medellín</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span class="quote-icon">"</span>
+        <div class="stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="text">Por fin tengo algo profesional para mandarle a mis clientes potenciales. El proceso fue rápido y el acompañamiento después de la entrega fue clave.</p>
+        <div class="author">
+          <div class="avatar">LP</div>
+          <div class="info">
+            <span class="name">Laura Pineda</span>
+            <span class="role">Coach financiero · Cali</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso" class="process-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">El proceso</span>
+      <h2>5 pasos para tener tu <span class="grad">página de ventas lista.</span></h2>
+      <p>Sin reuniones eternas. Avanzamos por WhatsApp.</p>
+    </div>
+    <div class="process-grid reveal-stagger">
+      <div class="process-step">
+        <div class="process-num">1</div>
+        <h5>Estrategia</h5>
+        <p>30 min por WhatsApp. Definimos oferta y cliente ideal.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">2</div>
+        <h5>Diseño</h5>
+        <p>Estructura visual con copy persuasivo escrito por nosotros.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">3</div>
+        <h5>Construcción</h5>
+        <p>Conectamos WhatsApp, formularios y píxel de Meta.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">4</div>
+        <h5>Revisión</h5>
+        <p>Te mostramos el resultado. Ajustes incluidos.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">5</div>
+        <h5>Lanzamiento</h5>
+        <p>Tu página de ventas en vivo, lista para compartir y pautar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="container" style="padding:0">
+  <div class="stats-section reveal">
+    <div class="stats-wrap">
+      <div class="stats-grid">
+        <div><div class="stat-num">3-5</div><div class="stat-label">DÍAS Y LISTA</div></div>
+        <div><div class="stat-num">$300.000</div><div class="stat-label">PAGO ÚNICO</div></div>
+        <div><div class="stat-num">24/7</div><div class="stat-label">TRABAJANDO POR TI</div></div>
+        <div><div class="stat-num">100%</div><div class="stat-label">LISTA PARA PAUTAR</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PLANS -->
+<section id="planes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Siguiente paso</span>
+      <h2>Ya tienes tu página de ventas. <span class="grad">Ahora los clientes.</span></h2>
+      <p>Una página de ventas sin tráfico es como un local cerrado. Cuando estés listo, gestionamos tu pauta.</p>
+    </div>
+    <div class="plans-grid reveal-stagger">
+      <div class="plan">
+        <div class="plan-name">Arranque</div>
+        <div class="plan-price"><small>$</small>700.000</div>
+        <div class="plan-period">/mes · gestión</div>
+        <ul class="plan-features">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Meta Ads o Google Ads</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>3 campañas activas</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>3 piezas creativas/mes</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Optimización semanal</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Reporte mensual</li>
+        </ul>
+        <a href="https://wa.me/573176584905?text=Hola,%20me%20interesa%20el%20plan%20Arranque" target="_blank" class="plan-cta">Empezar</a>
+      </div>
+      <div class="plan featured">
+        <div class="plan-name">Crecimiento</div>
+        <div class="plan-price"><small>$</small>1.200.000</div>
+        <div class="plan-period">/mes · gestión</div>
+        <ul class="plan-features">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Meta + Google Ads</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Campañas ilimitadas</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>6 piezas creativas/mes</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Optimización diaria</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Reporte + reunión quincenal</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Automatización WhatsApp</li>
+        </ul>
+        <a href="https://wa.me/573176584905?text=Hola,%20me%20interesa%20el%20plan%20Crecimiento" target="_blank" class="plan-cta">Empezar</a>
+      </div>
+      <div class="plan">
+        <div class="plan-name">Premium</div>
+        <div class="plan-price"><small>$</small>2.000.000</div>
+        <div class="plan-period">/mes · gestión</div>
+        <ul class="plan-features">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Todo lo de Crecimiento</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Email marketing mensual</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Edición de video con IA</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Automatizaciones avanzadas</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Reuniones semanales</li>
+        </ul>
+        <a href="https://wa.me/573176584905?text=Hola,%20me%20interesa%20el%20plan%20Premium" target="_blank" class="plan-cta">Empezar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="includes-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Preguntas</span>
+      <h2>Lo que <span class="grad">todos preguntan</span></h2>
+    </div>
+    <div class="faq-list reveal-stagger">
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Necesito tener logo e imágenes para crear mi página?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Trabajamos con plantillas, íconos y bancos de imágenes profesionales gratuitos. Si quieres logo personalizado, lo cotizamos aparte.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Mi página de ventas tiene dominio propio?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">El precio incluye un subdominio gratuito. Para dominio propio (tunegocio.com), te ayudamos a comprarlo y conectarlo por $80.000/año.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Puedo agregar agenda online a mi página después?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Sí. La agenda online es un servicio adicional ideal para spas, barberías, clínicas y prestadores de servicios. Te la podemos integrar a tu página de ventas original o al momento de crearla.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Cuánto tarda tener mi página lista?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Entre 3 y 5 días hábiles desde que aprobamos la oferta. Si necesitas servicio express en 48 horas, hay un recargo del 30%.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Necesito invertir en pauta para que funcione mi página?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Para tráfico, sí. Recomendamos mínimo $300.000/mes en pauta. La página de ventas sola no atrae visitantes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿La página de ventas sirve para cualquier tipo de negocio?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Funciona para servicios, productos, cursos, eventos, inmobiliarias, clínicas, restaurantes, spas, barberías y emprendimientos. No para tiendas con +50 productos (eso es e-commerce).</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Tienen garantía si no me gusta la página?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">Si después de la sesión de estrategia consideras que no es para ti, te devolvemos el 100%. Una vez aprobado el diseño, ajustes ilimitados por 15 días.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Cómo se paga?</span><span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a">50% al iniciar, 50% al entregar. Transferencia, Nequi, Daviplata o tarjeta.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section>
+  <div class="container">
+    <div class="cta-final reveal">
+      <h2>¿Listo para tener una <span style="font-style:italic">página que sí venda?</span></h2>
+      <p>Agenda tu sesión de estrategia gratuita. Te mostramos cómo quedaría tu página antes de empezar.</p>
+      <div class="hero-cta" style="margin-bottom:0">
+        <a href="https://wa.me/573176584905?text=Hola,%20quiero%20mi%20p%C3%A1gina%20de%20ventas%20Express%20por%20%24300.000" target="_blank" class="btn btn-primary">
+          Reservar mi cupo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="mailto:tobar.ads@gmail.com" class="btn btn-ghost">Escribir un correo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span>Tobar</span><span class="logo-dot"></span><span>ads</span></div>
+        <p class="footer-text">Páginas de ventas listas en tiempo récord. Agencia de publicidad digital para empresas en Colombia.</p>
+      </div>
+      <div class="footer-col">
+        <h6>Servicios</h6>
+        <ul>
+          <li><a href="#oferta">Página de ventas Express</a></li>
+          <li><a href="#agenda">Agenda online</a></li>
+          <li><a href="#planes">Meta Ads</a></li>
+          <li><a href="#planes">Google Ads</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h6>Empresa</h6>
+        <ul>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#planes">Planes</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h6>Contacto</h6>
+        <ul>
+          <li><a href="https://wa.me/573176584905" target="_blank">WhatsApp: 317 658 4905</a></li>
+          <li><a href="mailto:tobar.ads@gmail.com">tobar.ads@gmail.com</a></li>
+          <li>Bogotá · Colombia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Tobar.ads — Todos los derechos reservados</div>
+      <div>Hecho con propósito en Colombia</div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/573176584905?text=Hola,%20vengo%20de%20la%20web%20y%20quiero%20m%C3%A1s%20info" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+revealEls.forEach(el => observer.observe(el));
+
+document.querySelectorAll('.faq-item').forEach(item => {
+  const btn = item.querySelector('.faq-q');
+  btn.addEventListener('click', () => {
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+
+let scrollY = 0, ticking = false;
+function updateBlobs() {
+  const blobs = document.querySelectorAll('.blob');
+  blobs.forEach((blob, i) => {
+    const speed = (i + 1) * 0.05;
+    blob.style.transform = `translate3d(0, ${scrollY * speed}px, 0)`;
+  });
+  ticking = false;
+}
+window.addEventListener('scroll', () => {
+  scrollY = window.scrollY;
+  if (!ticking) { requestAnimationFrame(updateBlobs); ticking = true; }
+}, { passive: true });
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+if (menuToggle) {
+  menuToggle.addEventListener('click', () => {
+    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    navLinks.style.position = 'absolute';
+    navLinks.style.top = '60px';
+    navLinks.style.right = '16px';
+    navLinks.style.flexDirection = 'column';
+    navLinks.style.background = 'white';
+    navLinks.style.padding = '12px';
+    navLinks.style.borderRadius = '12px';
+    navLinks.style.boxShadow = '0 8px 24px rgba(15,15,25,0.08)';
+  });
+}
+
+// ====== CARRUSEL PORTAFOLIO (fixed-width approach) ======
+(function () {
+  const track   = document.getElementById('carouselTrack');
+  const dotsWrap= document.getElementById('carouselDots');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  if (!track) return;
+
+  const GAP = 24;          // debe coincidir con CSS gap
+  const cards  = Array.from(track.querySelectorAll('.proj-card'));
+  const total  = cards.length;
+  let current  = 0;
+  let visible  = 3;        // recalculado en init()
+  let autoTimer= null;
+
+  /* cuántas tarjetas caben según el viewport */
+  function calcVisible() {
+    const w = window.innerWidth;
+    if (w <= 640)  return 1;
+    if (w <= 1040) return 2;
+    return 3;
+  }
+
+  /* ancho de 1 tarjeta + su gap (tomado del DOM para precisión) */
+  function cardStep() {
+    return cards[0].offsetWidth + GAP;
+  }
+
+  /* índice máximo al que puede llegar current */
+  function maxIdx() { return Math.max(0, total - visible); }
+
+  /* construye / reconstruye los dots según maxIdx */
+  function buildDots() {
+    dotsWrap.innerHTML = '';
+    for (let i = 0; i <= maxIdx(); i++) {
+      const btn = document.createElement('button');
+      btn.className = 'carousel-dot' + (i === current ? ' active' : '');
+      btn.setAttribute('aria-label', 'Ir al proyecto ' + (i + 1));
+      btn.addEventListener('click', () => { stopAuto(); goTo(i); startAuto(); });
+      dotsWrap.appendChild(btn);
+    }
+  }
+
+  function refreshDots() {
+    dotsWrap.querySelectorAll('.carousel-dot').forEach((d, i) =>
+      d.classList.toggle('active', i === current)
+    );
+  }
+
+  function goTo(idx) {
+    current = Math.max(0, Math.min(idx, maxIdx()));
+    track.style.transform = 'translateX(-' + current * cardStep() + 'px)';
+    refreshDots();
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current >= maxIdx();
+  }
+
+  const next = () => goTo(current >= maxIdx() ? 0 : current + 1);
+  const prev = () => goTo(current - 1);
+
+  function startAuto() { autoTimer = setInterval(next, 4500); }
+  function stopAuto()  { clearInterval(autoTimer); }
+
+  prevBtn.addEventListener('click', () => { stopAuto(); prev(); startAuto(); });
+  nextBtn.addEventListener('click', () => { stopAuto(); next(); startAuto(); });
+
+  /* swipe táctil */
+  let touchX = 0;
+  track.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; stopAuto(); }, { passive: true });
+  track.addEventListener('touchend',   e => {
+    const diff = touchX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) { diff > 0 ? next() : prev(); }
+    startAuto();
+  }, { passive: true });
+
+  /* pausa al hacer hover */
+  track.addEventListener('mouseenter', stopAuto);
+  track.addEventListener('mouseleave', startAuto);
+
+  function init() {
+    visible = calcVisible();
+    /* forzar reflow para que offsetWidth esté actualizado */
+    requestAnimationFrame(() => {
+      if (current > maxIdx()) current = maxIdx();
+      buildDots();
+      goTo(current);
+      startAuto();
+    });
+  }
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    stopAuto();
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(init, 150);
+  });
+
+  /* primera carga: esperar a que las imágenes definan el alto */
+  if (document.readyState === 'complete') { init(); }
+  else { window.addEventListener('load', init); }
+})();
+</script>
+</body>
+</html>
