@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1018892707748591');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1018892707748591&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tobar.ads · Tobar.ads · Tu página de ventas lista en tiempo récord por $300.000</title>
@@ -1570,6 +1587,30 @@ if (menuToggle) {
   if (document.readyState === 'complete') { init(); }
   else { window.addEventListener('load', init); }
 })();
+
+// ====== META PIXEL EVENTS ======
+document.querySelectorAll('a[href*="wa.me"]').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'Lead', {
+        content_name: 'WhatsApp Click',
+        content_category: 'Pagina de Ventas Express',
+        value: 300000,
+        currency: 'COP'
+      });
+    }
+  });
+});
+
+// Evento ViewContent al cargar la página (ya cargó la oferta)
+if (typeof fbq !== 'undefined') {
+  fbq('track', 'ViewContent', {
+    content_name: 'Pagina de Ventas Express',
+    content_category: 'Landing',
+    value: 300000,
+    currency: 'COP'
+  });
+}
 </script>
 </body>
 </html>
